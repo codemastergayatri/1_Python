@@ -1,0 +1,4 @@
+re module in python
+    The Python "re" module provides regular expression support. In Python a regular expression search is typically written 
+    as: match = re. search(pat, str) The re.search() method takes a regular expression pattern and a string and searches for that pattern within the string.
+

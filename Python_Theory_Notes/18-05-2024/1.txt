@@ -1,0 +1,34 @@
+Classes
+    Classes describe data and provide methods to manipulate that data, all encompassed under a single
+    object.A class, functions as a template that defines the basic characteristics of a particular object.
+
+Important points of classes:
+ 1. The class is made up of attributes (data) and methods (functions).
+ 2. Attributes and methods are simply defined as normal variables and functions.
+ 3. The __init__() method is called the initializer. It is the method that is first run when you create a new
+    object, or new instance of the class.
+ 4. Attributes that apply to the whole class are defined first, and are called class attributes.
+ 5. Attributes that apply to a specific instance of a class (an object) are called instance attributes. They are
+    generally defined inside __init__(); this is not necessary, but it is recommended (since attributes defined
+    outside of __init__() run the risk of being accessed before they are defined).
+ 6. Every method, included in the class definition passes the object in question as its first parameter. The word
+    self is used for this parameter. It works as a reference to the object.
+    The term “self” refers to the custom class used to access the class's members and methods, as well as to create new members.
+ 7. __functionname__(self, other_stuff). All such methods are called "magic methods".
+
+what is  Monkey Patching ? ---not recommended
+ if we want to add a new variable or a method inside a class after the class is already defined.
+
+next() : this function is used to return the next item from the iterator
+yield : this keyword is similar to a return statement used for returning values or objects. 
+The yield statement returns a generator object to the one who calls the function which contains yield, instead of simply returning a value.
+strip() : remove whitespaces from before and after string.
+rstrip(): Remove any white spaces at the end of the string.
+lstrip(): Remove any white spaces at the start of the string.
+replace() : replaces values in string.
+split() : divides the string from common thing (like " " or ", " or "\") and gets a list of it.
+
+what is a generator?
+ A Generator in Python is a function that returns an iterator using the Yield keyword.
+
+

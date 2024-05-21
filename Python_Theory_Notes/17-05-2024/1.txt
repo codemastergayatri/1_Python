@@ -1,0 +1,40 @@
+list comprehension offers a shorter syntax when we want to create a new list from existing list.
+
+    if __name__ == '__main__':
+    It is the entry point from where python interpreter start executing.
+    It is a conditional statement that tells the Python interpreter under what conditions the main method should be executed.
+
+lexicographic increasing order 
+    increasing numerical order (numbers read left to right)
+
+difference between sort() and sorted() in python
+    sort() will sort the list in-place, mutating its indexes and returning None , whereas sorted() will return a new sorted list leaving the original list unchanged.
+    sorted() accepts any iterable while list.sort() is a method of the list class and can only be used with lists.
+
+what is map function
+    Map in Python is a function that works as an iterator to return a result after applying a function to every item of an iterable (tuple, lists, etc.)
+    ex:     x =  map(lambda x: x**2, (3, 5, 7, 11, 13))
+            print (x)
+            print(list(x))
+            output: <map object at 0x7f7e02849ca0>
+                    [9, 25, 49, 121, 169]
+
+difference between sep and end in python
+sep : It specifies the string to use as a separator between the objects being printed. The default value is ' '.  
+input --> print("Namaste", "India")
+output --> Namaste India
+input --> print("Namaste", "India", sep=", ")
+output --> Namaste, India
+
+end : It specifies the string to use as a terminator after the objects are printed. The default value is '\n'.
+input -->   print("Welcome", "to", "Codedamn", end="@")
+            print("Welcome", "to", "Codedamn", end="***")
+            print("Welcome", "to", "Codedamn", end="")
+output --> Welcome to Codedamn@Welcome to Codedamn***Welcome to Codedamn
+
+what is factorial?
+    factorial of 7 is written 7!, meaning 1 × 2 × 3 × 4 × 5 × 6 × 7
+
+How to give a docstring?
+""" hello """
+
